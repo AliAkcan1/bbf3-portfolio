@@ -31,10 +31,10 @@ function Header() {
                     EXPERIENCE WITH
                 </h1>
                 <div className="flex gap-12 mt-12">
-                    <i class="fa-brands fa-js text-5xl text-gray-200"></i>
-                    <i class="fa-brands fa-react text-5xl text-gray-200"></i>
-                    <i class="fa-brands fa-node text-5xl text-gray-200"></i>
-                    <i class="fa-brands fa-css3 text-5xl text-gray-200"></i>
+                    <i className="fa-brands fa-js text-5xl text-gray-200"></i>
+                    <i className="fa-brands fa-react text-5xl text-gray-200"></i>
+                    <i className="fa-brands fa-node text-5xl text-gray-200"></i>
+                    <i className="fa-brands fa-css3 text-5xl text-gray-200"></i>
                 </div>
             </div>
             <div className="flex flex-col justify-center items-center mt-24">
