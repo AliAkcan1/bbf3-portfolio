@@ -5,3 +5,35 @@
 @tailwind components;
 @tailwind utilities;
 
+* {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.avatar {
+    background: rgb(255, 134, 96);
+    background: linear-gradient(132deg, rgba(255, 134, 96, 1) 0%, rgba(128, 0, 255, 1) 100%);
+}
+
+.about-it {
+    background: rgb(255, 134, 96);
+    background: linear-gradient(132deg, rgba(255, 134, 96, 1) 30%, rgba(154, 51, 255, 1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.typescript {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}
+
+.projects {
+    background: rgb(255, 134, 96);
+    background: linear-gradient(180deg, rgba(255, 134, 96, 1) 0%, rgba(213, 73, 29, 1) 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.rotateArrow{
+    transform: rotate(-45deg);
+}
