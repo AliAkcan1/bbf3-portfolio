@@ -1,18 +1,15 @@
-import Footer from "./components/Footer"
-import Header from "./components/Header"
-import Main from "./components/Main"
-import Navbar from "./components/Navbar"
+import { Route, Routes } from "react-router-dom"
+import Home from "./pages/Home"
+import ProjectsPage from "./pages/ProjectsPage"
 
 function App() {
 
   return (
-    <div>
-      <Navbar />
-      <div>
-        <Header />
-        <Main />
-      </div>
-      <Footer />
+    <div className="App">
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/projects" element={<ProjectsPage />} />
+      </Routes>
     </div>
   )
 }

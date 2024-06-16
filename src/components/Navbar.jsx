@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom"
+
 function Navbar() {
     return (
         <nav className="h-20 bg-primary flex justify-center items-center">
@@ -6,7 +8,7 @@ function Navbar() {
                     <a href="/">Home</a>
                 </li>
                 <li>
-                    <a href="/">Projects</a>
+                    <Link to="/projects">Projects</Link>
                 </li>
                 <li>
                     <a href="/">Contact</a>
