@@ -8,7 +8,7 @@ function Header() {
             </div>
             <div className="flex flex-col justify-center items-center">
                 <h1 className="text-white mx-auto text-center text-5xl leading-snug font-extrabold">
-                    I do code and <br /> make content <span className="about-it">about it!</span>
+                    I do code and specialised <br /> in <span className="about-it">frontend development!</span>
                 </h1>
                 <p className="text-center text-secondary-text text-lg flex items-center justify-center mt-10 max-w-2xl">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, saepe et, obcaecati optio quod amet eos asperiores tenetur nam ducimus placeat! Perferendis illum molestias quasi consequuntur. Dicta, consequuntur? Omnis, in.
@@ -37,46 +37,6 @@ function Header() {
                     <i className="fa-brands fa-css3 text-5xl text-gray-200"></i>
                     <i className="fa-brands fa-vuejs text-5xl text-gray-200"></i>
                 </div>
-            </div>
-            <div className="flex flex-col justify-center items-center mt-24">
-                <h1 className="text-2xl font-black projects tracking-wider">
-                    PROJECTS
-                </h1>
-                <div className="mt-7 flex gap-7">
-                    <div className="w-80 h-72 bg-primary rounded-lg">
-                        <div className="w-full h-60 bg-red-500 rounded-t-lg">
-
-                        </div>
-                        <div className="w-full px-[24px] py-1 flex">
-                            <div className="flex flex-col">
-                                <a href="/" className="font-bold text-secondary-text text-[10px]">CLICK HERE TO VISIT</a>
-                                <a href="/" className="font-bold text-white text-[18px]">PROJECT ONE</a>
-                            </div>
-                            <div className="ml-auto flex items-center">
-                                <a href="/">
-                                    <i className="fa-solid fa-sharp fa-arrow-right text-white font-5xl rotateArrow  "></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="w-80 h-72 bg-primary rounded-lg">
-                        <div className="w-full h-60 bg-sky-500 rounded-t-lg">
-
-                        </div>
-                        <div className="w-full px-[24px] py-1 flex">
-                            <div className="flex flex-col">
-                                <a href="/" className="font-bold text-secondary-text text-[10px]">CLICK HERE TO VISIT</a>
-                                <a href="/" className="font-bold text-white text-[18px]">PROJECT TWO</a>
-                            </div>
-                            <div className="ml-auto flex items-center">
-                                <a href="/">
-                                    <i className="fa-solid fa-sharp fa-arrow-right text-white font-5xl rotateArrow  "></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
             </div>
         </header>
     );
