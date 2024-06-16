@@ -35,6 +35,7 @@ function Header() {
                     <i className="fa-brands fa-react text-5xl text-gray-200"></i>
                     <i className="fa-brands fa-node text-5xl text-gray-200"></i>
                     <i className="fa-brands fa-css3 text-5xl text-gray-200"></i>
+                    <i className="fa-brands fa-vuejs text-5xl text-gray-200"></i>
                 </div>
             </div>
             <div className="flex flex-col justify-center items-center mt-24">
